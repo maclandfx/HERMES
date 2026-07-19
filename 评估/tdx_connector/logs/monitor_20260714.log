@@ -1,0 +1,416 @@
+2026-07-14 14:20:06,223 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 14:20:06,225 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 14:20:06,226 [INFO] [PARSE] PZYJ.blk: ['1603296'] -> ['603296']
+2026-07-14 14:20:06,226 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 14:20:06,269 [INFO] [INFO] 批量评估 10 只股票
+2026-07-14 14:20:06,269 [INFO] [EVAL] 批量评估: 10只, 代码: 002268,002438,300657,600570,600839,600995,601728,603296,880009,999999
+2026-07-14 14:20:13,968 [WARNING] [EVAL] 批量评估失败: stderr=Traceback (most recent call last):
+  File "D:\Hermes\评估中心\tools\eval_smart.py", line 790, in <module>
+    p = run_smart_eval(inputs, title=args.title, output_dir=os.path.abspath(args.output) if args.output else None)
+  File "D:\Hermes\评估中心\tools\eval_smart.py", line 580, in run_smart_eval
+    stock_
+2026-07-14 14:20:13,977 [WARNING] [QT] tencent_quote failed: No module named 'astock_bridge'
+2026-07-14 14:20:13,992 [INFO] [RENDER] 未知: N级 score=0 vol=0.00 tn=0.0 trend=盘前
+2026-07-14 14:20:13,996 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\002268_14201399.txt
+2026-07-14 14:20:13,998 [WARNING] [QT] tencent_quote failed: No module named 'astock_bridge'
+2026-07-14 14:20:13,998 [INFO] [RENDER] 未知: N级 score=0 vol=0.00 tn=0.0 trend=盘前
+2026-07-14 14:20:14,000 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\002438_14201399.txt
+2026-07-14 14:20:14,001 [WARNING] [QT] tencent_quote failed: No module named 'astock_bridge'
+2026-07-14 14:20:14,001 [INFO] [RENDER] 未知: N级 score=0 vol=0.00 tn=0.0 trend=盘前
+2026-07-14 14:20:14,012 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\300657_14201400.txt
+2026-07-14 14:20:14,013 [WARNING] [QT] tencent_quote failed: No module named 'astock_bridge'
+2026-07-14 14:20:14,013 [INFO] [RENDER] 未知: N级 score=0 vol=0.00 tn=0.0 trend=盘前
+2026-07-14 14:20:14,014 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600570_14201401.txt
+2026-07-14 14:20:14,015 [WARNING] [QT] tencent_quote failed: No module named 'astock_bridge'
+2026-07-14 14:20:14,016 [INFO] [RENDER] 未知: N级 score=0 vol=0.00 tn=0.0 trend=盘前
+2026-07-14 14:20:14,017 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600839_14201401.txt
+2026-07-14 14:20:14,018 [WARNING] [QT] tencent_quote failed: No module named 'astock_bridge'
+2026-07-14 14:20:14,018 [INFO] [RENDER] 未知: N级 score=0 vol=0.00 tn=0.0 trend=盘前
+2026-07-14 14:20:14,024 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600995_14201402.txt
+2026-07-14 14:20:14,026 [WARNING] [QT] tencent_quote failed: No module named 'astock_bridge'
+2026-07-14 14:20:14,026 [INFO] [RENDER] 未知: N级 score=0 vol=0.00 tn=0.0 trend=盘前
+2026-07-14 14:20:14,027 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\601728_14201402.txt
+2026-07-14 14:20:14,030 [WARNING] [QT] tencent_quote failed: No module named 'astock_bridge'
+2026-07-14 14:20:14,030 [INFO] [RENDER] 未知: N级 score=0 vol=0.00 tn=0.0 trend=盘前
+2026-07-14 14:20:14,031 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\603296_14201403.txt
+2026-07-14 14:20:14,034 [WARNING] [QT] tencent_quote failed: No module named 'astock_bridge'
+2026-07-14 14:20:14,034 [INFO] [RENDER] 未知: N级 score=0 vol=0.00 tn=0.0 trend=盘前
+2026-07-14 14:20:14,035 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\880009_14201403.txt
+2026-07-14 14:20:14,042 [WARNING] [QT] tencent_quote failed: No module named 'astock_bridge'
+2026-07-14 14:20:14,043 [INFO] [RENDER] 未知: N级 score=0 vol=0.00 tn=0.0 trend=盘前
+2026-07-14 14:20:14,044 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\999999_14201404.txt
+2026-07-14 14:20:14,046 [INFO] [DONE] 处理完成: 10 只股票
+2026-07-14 14:23:06,481 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 14:23:06,505 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 14:23:06,505 [INFO] [PARSE] PZYJ.blk: ['1603296'] -> ['603296']
+2026-07-14 14:23:06,505 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 14:26:06,394 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 14:26:06,413 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 14:26:06,414 [INFO] [PARSE] PZYJ.blk: ['0000608', '1603296'] -> ['000608', '603296']
+2026-07-14 14:26:06,414 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 14:26:06,417 [INFO] [INFO] 单股评估
+2026-07-14 14:26:06,417 [INFO] [EVAL] 开始评估: 000608 (sz), 代码格式: sz000608
+2026-07-14 14:26:31,279 [INFO] [EVAL] 评估成功: 000608, 耗时 24.9s
+2026-07-14 14:26:31,281 [WARNING] [QT] tencent_quote failed: No module named 'astock_bridge'
+2026-07-14 14:26:31,286 [INFO] [RENDER] 阳光股份: S级 score=103 vol=0.00 tn=0.0 trend=盘前
+2026-07-14 14:26:31,287 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\000608_14263128.txt
+2026-07-14 14:26:31,288 [INFO] [DONE] 处理完成: 1 只股票
+2026-07-14 14:29:06,478 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 14:29:06,491 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 14:29:06,492 [INFO] [PARSE] PZYJ.blk: ['0300209', '0000608'] -> ['300209', '000608']
+2026-07-14 14:29:06,492 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 14:29:06,495 [INFO] [INFO] 单股评估
+2026-07-14 14:29:06,495 [INFO] [EVAL] 开始评估: 300209 (sz), 代码格式: sz300209
+2026-07-14 14:29:26,572 [INFO] [EVAL] 评估成功: 300209, 耗时 20.1s
+2026-07-14 14:29:26,574 [WARNING] [QT] tencent_quote failed: No module named 'astock_bridge'
+2026-07-14 14:29:26,577 [INFO] [RENDER] 行云科技: S级 score=90 vol=0.00 tn=0.0 trend=盘前
+2026-07-14 14:29:26,579 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\300209_14292657.txt
+2026-07-14 14:29:26,580 [INFO] [DONE] 处理完成: 1 只股票
+2026-07-14 14:31:43,654 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 14:31:43,702 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 14:31:43,702 [INFO] [PARSE] PZYJ.blk: ['0300209', '0000608'] -> ['300209', '000608']
+2026-07-14 14:31:43,702 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 14:32:06,928 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 14:32:06,961 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 14:32:06,962 [INFO] [PARSE] PZYJ.blk: ['0300209', '0000608'] -> ['300209', '000608']
+2026-07-14 14:32:06,967 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 14:35:06,761 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 14:35:06,776 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 14:35:06,776 [INFO] [PARSE] PZYJ.blk: ['1600188', '0300209', '0000608'] -> ['600188', '300209', '000608']
+2026-07-14 14:35:06,777 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 14:35:06,779 [INFO] [INFO] 单股评估
+2026-07-14 14:35:06,779 [INFO] [EVAL] 开始评估: 600188 (sh), 代码格式: sh600188
+2026-07-14 14:35:26,456 [INFO] [EVAL] 评估成功: 600188, 耗时 19.7s
+2026-07-14 14:35:26,696 [INFO] [RENDER] 兖矿能源: S级 score=101 vol=1.77 tn=1.6 trend=高盘 向上
+2026-07-14 14:35:26,697 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600188_14352669.txt
+2026-07-14 14:35:26,699 [INFO] [DONE] 处理完成: 1 只股票
+2026-07-14 14:37:55,113 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 14:37:55,133 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 14:37:55,134 [INFO] [PARSE] PZYJ.blk: ['1603259', '1603255', '1601628', '1601336', '1600989', '1600713', '1600188', '0300209', '0000608'] -> ['603259', '603255', '601628', '601336', '600989', '600713', '600188', '300209', '000608']
+2026-07-14 14:37:55,134 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 14:37:55,135 [INFO] [INFO] 批量评估 6 只股票
+2026-07-14 14:37:55,135 [INFO] [EVAL] 批量评估: 6只, 代码: 600713,600989,601336,601628,603255,603259
+2026-07-14 14:38:06,857 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 14:38:06,872 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 14:38:06,873 [INFO] [PARSE] PZYJ.blk: ['1603259', '1603255', '1601628', '1601336', '1600989', '1600713', '1600188', '0300209', '0000608'] -> ['603259', '603255', '601628', '601336', '600989', '600713', '600188', '300209', '000608']
+2026-07-14 14:38:06,873 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 14:38:32,734 [INFO] [EVAL] 批量评估成功: 6只, 耗时 37.6s
+2026-07-14 14:38:33,435 [INFO] [RENDER] 南京医药: S级 score=96 vol=2.88 tn=2.8 trend=高盘 向上
+2026-07-14 14:38:33,436 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600713_14383343.txt
+2026-07-14 14:38:33,564 [INFO] [RENDER] 南京医药: S级 score=96 vol=2.36 tn=2.3 trend=高盘 向上
+2026-07-14 14:38:33,565 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600989_14383356.txt
+2026-07-14 14:38:33,697 [INFO] [RENDER] 南京医药: S级 score=96 vol=1.72 tn=1.9 trend=高盘 向上
+2026-07-14 14:38:33,698 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\601336_14383369.txt
+2026-07-14 14:38:33,828 [INFO] [RENDER] 南京医药: S级 score=96 vol=1.66 tn=0.2 trend=高盘 向上
+2026-07-14 14:38:33,829 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\601628_14383382.txt
+2026-07-14 14:38:33,962 [INFO] [RENDER] 南京医药: S级 score=96 vol=2.14 tn=4.9 trend=高盘 向上
+2026-07-14 14:38:33,962 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\603255_14383396.txt
+2026-07-14 14:38:34,089 [INFO] [RENDER] 南京医药: S级 score=96 vol=1.21 tn=2.7 trend=高盘 向上
+2026-07-14 14:38:34,090 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\603259_14383408.txt
+2026-07-14 14:38:34,091 [INFO] [DONE] 处理完成: 6 只股票
+2026-07-14 14:41:06,616 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 14:41:06,630 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 14:41:06,630 [INFO] [PARSE] PZYJ.blk: ['1688338', '1688106', '1603259', '1603255', '1601628', '1601336', '1600989', '1600713', '1600188', '0300209', '0000608'] -> ['688338', '688106', '603259', '603255', '601628', '601336', '600989', '600713', '600188', '300209', '000608']
+2026-07-14 14:41:06,630 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 14:41:06,633 [INFO] [INFO] 批量评估 20 只股票
+2026-07-14 14:41:06,633 [INFO] [EVAL] 批量评估: 20只, 代码: 000608,002268,002438,300209,300657,600188,600570,600713,600839,600989,600995,601336,601628,601728,603255,603259,688106,688338,880009,999999
+2026-07-14 14:41:06,933 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 14:41:06,948 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 14:41:06,949 [INFO] [PARSE] PZYJ.blk: ['1688338', '1688106', '1603259', '1603255', '1601628', '1601336', '1600989', '1600713', '1600188', '0300209', '0000608'] -> ['688338', '688106', '603259', '603255', '601628', '601336', '600989', '600713', '600188', '300209', '000608']
+2026-07-14 14:41:06,949 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 14:41:09,858 [WARNING] [EVAL] 批量评估失败: stderr=Traceback (most recent call last):
+  File "D:\Hermes\评估中心\tools\eval_smart.py", line 790, in <module>
+    p = run_smart_eval(inputs, title=args.title, output_dir=os.path.abspath(args.output) if args.output else None)
+  File "D:\Hermes\评估中心\tools\eval_smart.py", line 580, in run_smart_eval
+    stock_
+2026-07-14 14:41:10,116 [INFO] [RENDER] 未知: N级 score=0 vol=2.02 tn=7.4 trend=高盘 向上
+2026-07-14 14:41:10,117 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\000608_14411011.txt
+2026-07-14 14:41:10,294 [INFO] [RENDER] 未知: N级 score=0 vol=0.57 tn=1.9 trend=中盘 整理
+2026-07-14 14:41:10,295 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\002268_14411029.txt
+2026-07-14 14:41:10,479 [INFO] [RENDER] 未知: N级 score=0 vol=0.90 tn=1.3 trend=高盘 向上
+2026-07-14 14:41:10,480 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\002438_14411047.txt
+2026-07-14 14:41:10,663 [INFO] [RENDER] 未知: N级 score=0 vol=2.68 tn=17.7 trend=高盘 向上
+2026-07-14 14:41:10,664 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\300209_14411066.txt
+2026-07-14 14:41:10,846 [INFO] [RENDER] 未知: N级 score=0 vol=0.99 tn=6.5 trend=高盘 向上
+2026-07-14 14:41:10,847 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\300657_14411084.txt
+2026-07-14 14:41:11,048 [INFO] [RENDER] 未知: N级 score=0 vol=1.75 tn=1.6 trend=高盘 向上
+2026-07-14 14:41:11,050 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600188_14411104.txt
+2026-07-14 14:41:11,259 [INFO] [RENDER] 未知: N级 score=0 vol=0.94 tn=1.3 trend=中盘 整理
+2026-07-14 14:41:11,260 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600570_14411126.txt
+2026-07-14 14:41:11,454 [INFO] [RENDER] 未知: N级 score=0 vol=2.87 tn=2.9 trend=高盘 向上
+2026-07-14 14:41:11,455 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600713_14411145.txt
+2026-07-14 14:41:11,639 [INFO] [RENDER] 未知: N级 score=0 vol=1.86 tn=5.3 trend=中盘 整理
+2026-07-14 14:41:11,640 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600839_14411164.txt
+2026-07-14 14:41:11,822 [INFO] [RENDER] 未知: N级 score=0 vol=2.34 tn=2.3 trend=高盘 向上
+2026-07-14 14:41:11,823 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600989_14411182.txt
+2026-07-14 14:41:12,023 [INFO] [RENDER] 未知: N级 score=0 vol=0.72 tn=0.3 trend=高盘 向上
+2026-07-14 14:41:12,024 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600995_14411202.txt
+2026-07-14 14:41:12,204 [INFO] [RENDER] 未知: N级 score=0 vol=1.72 tn=1.9 trend=高盘 向上
+2026-07-14 14:41:12,205 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\601336_14411220.txt
+2026-07-14 14:41:12,374 [INFO] [RENDER] 未知: N级 score=0 vol=1.66 tn=0.2 trend=高盘 向上
+2026-07-14 14:41:12,375 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\601628_14411237.txt
+2026-07-14 14:41:12,566 [INFO] [RENDER] 未知: N级 score=0 vol=1.06 tn=0.1 trend=中盘 整理
+2026-07-14 14:41:12,567 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\601728_14411256.txt
+2026-07-14 14:41:12,776 [INFO] [RENDER] 未知: N级 score=0 vol=2.13 tn=5.0 trend=高盘 向上
+2026-07-14 14:41:12,777 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\603255_14411277.txt
+2026-07-14 14:41:12,960 [INFO] [RENDER] 未知: N级 score=0 vol=1.21 tn=2.7 trend=高盘 向上
+2026-07-14 14:41:12,961 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\603259_14411296.txt
+2026-07-14 14:41:13,133 [INFO] [RENDER] 未知: N级 score=0 vol=1.19 tn=12.4 trend=高盘 向上
+2026-07-14 14:41:13,134 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\688106_14411313.txt
+2026-07-14 14:41:13,309 [INFO] [RENDER] 未知: N级 score=0 vol=1.80 tn=2.7 trend=高盘 向上
+2026-07-14 14:41:13,311 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\688338_14411331.txt
+2026-07-14 14:41:13,510 [INFO] [RENDER] 未知: N级 score=0 vol=0.00 tn=0.0 trend=盘前
+2026-07-14 14:41:13,512 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\880009_14411351.txt
+2026-07-14 14:41:13,717 [INFO] [RENDER] 未知: N级 score=0 vol=0.00 tn=0.0 trend=盘前
+2026-07-14 14:41:13,718 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\999999_14411371.txt
+2026-07-14 14:41:13,720 [INFO] [DONE] 处理完成: 20 只股票
+2026-07-14 14:41:34,680 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 14:41:34,752 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 14:41:34,752 [INFO] [PARSE] PZYJ.blk: ['1688338', '1688106', '1603259', '1603255', '1601628', '1601336', '1600989', '1600713', '1600188', '0300209', '0000608'] -> ['688338', '688106', '603259', '603255', '601628', '601336', '600989', '600713', '600188', '300209', '000608']
+2026-07-14 14:41:34,752 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 14:42:09,857 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 14:42:09,879 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 14:42:09,880 [INFO] [PARSE] PZYJ.blk: ['1688338', '1688106', '1603259', '1603255', '1601628', '1601336', '1600989', '1600713', '1600188', '0300209', '0000608'] -> ['688338', '688106', '603259', '603255', '601628', '601336', '600989', '600713', '600188', '300209', '000608']
+2026-07-14 14:42:09,880 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 14:42:09,881 [INFO] [INFO] 批量评估 20 只股票
+2026-07-14 14:42:09,882 [INFO] [EVAL] 批量评估: 20只, 代码: 000608,002268,002438,300209,300657,600188,600570,600713,600839,600989,600995,601336,601628,601728,603255,603259,688106,688338,880009,999999
+2026-07-14 14:42:13,248 [WARNING] [EVAL] 批量评估失败: stderr=Traceback (most recent call last):
+  File "D:\Hermes\评估中心\tools\eval_smart.py", line 790, in <module>
+    p = run_smart_eval(inputs, title=args.title, output_dir=os.path.abspath(args.output) if args.output else None)
+  File "D:\Hermes\评估中心\tools\eval_smart.py", line 580, in run_smart_eval
+    stock_
+2026-07-14 14:42:13,948 [INFO] [RENDER] 未知: N级 score=0 vol=2.02 tn=7.4 trend=高盘 向上
+2026-07-14 14:42:13,948 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\000608_14421394.txt
+2026-07-14 14:42:14,089 [INFO] [RENDER] 未知: N级 score=0 vol=0.56 tn=1.9 trend=中盘 整理
+2026-07-14 14:42:14,090 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\002268_14421408.txt
+2026-07-14 14:42:14,253 [INFO] [RENDER] 未知: N级 score=0 vol=0.90 tn=1.4 trend=高盘 向上
+2026-07-14 14:42:14,254 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\002438_14421425.txt
+2026-07-14 14:42:14,411 [INFO] [RENDER] 未知: N级 score=0 vol=2.67 tn=17.7 trend=高盘 向上
+2026-07-14 14:42:14,412 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\300209_14421441.txt
+2026-07-14 14:42:14,563 [INFO] [RENDER] 未知: N级 score=0 vol=0.99 tn=6.5 trend=高盘 向上
+2026-07-14 14:42:14,564 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\300657_14421456.txt
+2026-07-14 14:42:14,699 [INFO] [RENDER] 未知: N级 score=0 vol=1.75 tn=1.6 trend=高盘 向上
+2026-07-14 14:42:14,699 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600188_14421469.txt
+2026-07-14 14:42:14,847 [INFO] [RENDER] 未知: N级 score=0 vol=0.94 tn=1.3 trend=中盘 整理
+2026-07-14 14:42:14,848 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600570_14421484.txt
+2026-07-14 14:42:14,983 [INFO] [RENDER] 未知: N级 score=0 vol=2.87 tn=2.9 trend=高盘 向上
+2026-07-14 14:42:14,985 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600713_14421498.txt
+2026-07-14 14:42:15,134 [INFO] [RENDER] 未知: N级 score=0 vol=1.85 tn=5.3 trend=中盘 整理
+2026-07-14 14:42:15,135 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600839_14421513.txt
+2026-07-14 14:42:15,269 [INFO] [RENDER] 未知: N级 score=0 vol=2.34 tn=2.3 trend=高盘 向上
+2026-07-14 14:42:15,270 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600989_14421526.txt
+2026-07-14 14:42:15,412 [INFO] [RENDER] 未知: N级 score=0 vol=0.72 tn=0.3 trend=高盘 向上
+2026-07-14 14:42:15,413 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600995_14421541.txt
+2026-07-14 14:42:15,553 [INFO] [RENDER] 未知: N级 score=0 vol=1.71 tn=1.9 trend=高盘 向上
+2026-07-14 14:42:15,554 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\601336_14421555.txt
+2026-07-14 14:42:15,687 [INFO] [RENDER] 未知: N级 score=0 vol=1.66 tn=0.2 trend=高盘 向上
+2026-07-14 14:42:15,688 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\601628_14421568.txt
+2026-07-14 14:42:15,837 [INFO] [RENDER] 未知: N级 score=0 vol=1.07 tn=0.1 trend=中盘 向上
+2026-07-14 14:42:15,838 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\601728_14421583.txt
+2026-07-14 14:42:15,965 [INFO] [RENDER] 未知: N级 score=0 vol=2.15 tn=5.0 trend=高盘 向上
+2026-07-14 14:42:15,967 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\603255_14421596.txt
+2026-07-14 14:42:16,119 [INFO] [RENDER] 未知: N级 score=0 vol=1.22 tn=2.7 trend=高盘 向上
+2026-07-14 14:42:16,119 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\603259_14421611.txt
+2026-07-14 14:42:16,245 [INFO] [RENDER] 未知: N级 score=0 vol=1.18 tn=12.4 trend=高盘 向上
+2026-07-14 14:42:16,246 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\688106_14421624.txt
+2026-07-14 14:42:16,370 [INFO] [RENDER] 未知: N级 score=0 vol=1.79 tn=2.7 trend=高盘 向上
+2026-07-14 14:42:16,372 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\688338_14421637.txt
+2026-07-14 14:42:16,502 [INFO] [RENDER] 未知: N级 score=0 vol=0.00 tn=0.0 trend=盘前
+2026-07-14 14:42:16,503 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\880009_14421650.txt
+2026-07-14 14:42:16,636 [INFO] [RENDER] 未知: N级 score=0 vol=0.00 tn=0.0 trend=盘前
+2026-07-14 14:42:16,637 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\999999_14421663.txt
+2026-07-14 14:42:16,638 [INFO] [DONE] 处理完成: 20 只股票
+2026-07-14 14:43:23,958 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 14:43:23,978 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 14:43:23,978 [INFO] [PARSE] PZYJ.blk: ['1688338', '1688106', '1603259', '1603255', '1601628', '1601336', '1600989', '1600713', '1600188', '0300209', '0000608'] -> ['688338', '688106', '603259', '603255', '601628', '601336', '600989', '600713', '600188', '300209', '000608']
+2026-07-14 14:43:23,978 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 14:43:24,388 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 14:43:24,406 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 14:43:24,406 [INFO] [PARSE] PZYJ.blk: ['1688338', '1688106', '1603259', '1603255', '1601628', '1601336', '1600989', '1600713', '1600188', '0300209', '0000608'] -> ['688338', '688106', '603259', '603255', '601628', '601336', '600989', '600713', '600188', '300209', '000608']
+2026-07-14 14:43:24,406 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 14:43:34,688 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 14:43:34,707 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 14:43:34,707 [INFO] [PARSE] PZYJ.blk: ['1688338', '1688106', '1603259', '1603255', '1601628', '1601336', '1600989', '1600713', '1600188', '0300209', '0000608'] -> ['688338', '688106', '603259', '603255', '601628', '601336', '600989', '600713', '600188', '300209', '000608']
+2026-07-14 14:43:34,707 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 14:44:47,015 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 14:44:47,034 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 14:44:47,034 [INFO] [PARSE] PZYJ.blk: ['0002174', '1688338', '1688106', '1603259', '1603255', '1601628', '1601336', '1600989', '1600713', '1600188', '0300209', '0000608'] -> ['002174', '688338', '688106', '603259', '603255', '601628', '601336', '600989', '600713', '600188', '300209', '000608']
+2026-07-14 14:44:47,035 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 14:44:47,036 [INFO] [INFO] 批量评估 21 只股票
+2026-07-14 14:44:47,036 [INFO] [EVAL] 批量评估: 21只, 代码: 000608,002174,002268,002438,300209,300657,600188,600570,600713,600839,600989,600995,601336,601628,601728,603255,603259,688106,688338,880009,999999
+2026-07-14 14:44:50,055 [WARNING] [EVAL] 批量评估失败: stderr=Traceback (most recent call last):
+  File "D:\Hermes\评估中心\tools\eval_smart.py", line 790, in <module>
+    p = run_smart_eval(inputs, title=args.title, output_dir=os.path.abspath(args.output) if args.output else None)
+  File "D:\Hermes\评估中心\tools\eval_smart.py", line 580, in run_smart_eval
+    stock_
+2026-07-14 14:44:50,702 [INFO] [RENDER] 未知: N级 score=0 vol=2.01 tn=7.5 trend=高盘 向上
+2026-07-14 14:44:50,703 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\000608_14445070.txt
+2026-07-14 14:44:50,845 [INFO] [RENDER] 未知: N级 score=0 vol=1.08 tn=6.1 trend=高盘 向上
+2026-07-14 14:44:50,846 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\002174_14445084.txt
+2026-07-14 14:44:51,007 [INFO] [RENDER] 未知: N级 score=0 vol=0.56 tn=1.9 trend=中盘 整理
+2026-07-14 14:44:51,007 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\002268_14445100.txt
+2026-07-14 14:44:51,157 [INFO] [RENDER] 未知: N级 score=0 vol=0.91 tn=1.4 trend=高盘 向上
+2026-07-14 14:44:51,158 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\002438_14445115.txt
+2026-07-14 14:44:51,289 [INFO] [RENDER] 未知: N级 score=0 vol=2.65 tn=17.7 trend=高盘 向上
+2026-07-14 14:44:51,290 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\300209_14445128.txt
+2026-07-14 14:44:51,415 [INFO] [RENDER] 未知: N级 score=0 vol=0.99 tn=6.5 trend=中盘 向上
+2026-07-14 14:44:51,416 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\300657_14445141.txt
+2026-07-14 14:44:51,552 [INFO] [RENDER] 未知: N级 score=0 vol=1.75 tn=1.6 trend=高盘 向上
+2026-07-14 14:44:51,553 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600188_14445155.txt
+2026-07-14 14:44:51,694 [INFO] [RENDER] 未知: N级 score=0 vol=0.94 tn=1.3 trend=中盘 整理
+2026-07-14 14:44:51,694 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600570_14445169.txt
+2026-07-14 14:44:51,823 [INFO] [RENDER] 未知: N级 score=0 vol=2.86 tn=2.9 trend=高盘 向上
+2026-07-14 14:44:51,825 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600713_14445182.txt
+2026-07-14 14:44:51,955 [INFO] [RENDER] 未知: N级 score=0 vol=1.86 tn=5.4 trend=中盘 整理
+2026-07-14 14:44:51,956 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600839_14445195.txt
+2026-07-14 14:44:52,103 [INFO] [RENDER] 未知: N级 score=0 vol=2.34 tn=2.3 trend=高盘 向上
+2026-07-14 14:44:52,104 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600989_14445210.txt
+2026-07-14 14:44:52,257 [INFO] [RENDER] 未知: N级 score=0 vol=0.72 tn=0.3 trend=高盘 向上
+2026-07-14 14:44:52,258 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600995_14445225.txt
+2026-07-14 14:44:52,405 [INFO] [RENDER] 未知: N级 score=0 vol=1.71 tn=1.9 trend=高盘 向上
+2026-07-14 14:44:52,406 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\601336_14445240.txt
+2026-07-14 14:44:52,543 [INFO] [RENDER] 未知: N级 score=0 vol=1.67 tn=0.2 trend=高盘 向上
+2026-07-14 14:44:52,543 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\601628_14445254.txt
+2026-07-14 14:44:52,692 [INFO] [RENDER] 未知: N级 score=0 vol=1.07 tn=0.1 trend=中盘 整理
+2026-07-14 14:44:52,694 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\601728_14445269.txt
+2026-07-14 14:44:52,858 [INFO] [RENDER] 未知: N级 score=0 vol=2.16 tn=5.1 trend=高盘 向上
+2026-07-14 14:44:52,859 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\603255_14445285.txt
+2026-07-14 14:44:53,006 [INFO] [RENDER] 未知: N级 score=0 vol=1.23 tn=2.8 trend=高盘 向上
+2026-07-14 14:44:53,007 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\603259_14445300.txt
+2026-07-14 14:44:53,144 [INFO] [RENDER] 未知: N级 score=0 vol=1.18 tn=12.4 trend=高盘 向上
+2026-07-14 14:44:53,145 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\688106_14445314.txt
+2026-07-14 14:44:53,264 [INFO] [RENDER] 未知: N级 score=0 vol=1.78 tn=2.8 trend=高盘 向上
+2026-07-14 14:44:53,265 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\688338_14445326.txt
+2026-07-14 14:44:53,387 [INFO] [RENDER] 未知: N级 score=0 vol=0.00 tn=0.0 trend=盘前
+2026-07-14 14:44:53,388 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\880009_14445338.txt
+2026-07-14 14:44:53,520 [INFO] [RENDER] 未知: N级 score=0 vol=0.00 tn=0.0 trend=盘前
+2026-07-14 14:44:53,521 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\999999_14445352.txt
+2026-07-14 14:44:53,523 [INFO] [DONE] 处理完成: 21 只股票
+2026-07-14 14:46:29,984 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 14:46:30,002 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 14:46:30,003 [INFO] [PARSE] PZYJ.blk: ['0002174', '1688338', '1688106', '1603259', '1603255', '1601628', '1601336', '1600989', '1600713', '1600188', '0300209', '0000608'] -> ['002174', '688338', '688106', '603259', '603255', '601628', '601336', '600989', '600713', '600188', '300209', '000608']
+2026-07-14 14:46:30,004 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 14:46:30,005 [INFO] [INFO] 批量评估 21 只股票
+2026-07-14 14:46:30,005 [INFO] [EVAL] 批量评估: 21只, 代码: 000608,002174,002268,002438,300209,300657,600188,600570,600713,600839,600989,600995,601336,601628,601728,603255,603259,688106,688338,880009,999999
+2026-07-14 14:46:32,911 [WARNING] [EVAL] 批量评估失败: stderr=Traceback (most recent call last):
+  File "D:\Hermes\评估中心\tools\eval_smart.py", line 790, in <module>
+    p = run_smart_eval(inputs, title=args.title, output_dir=os.path.abspath(args.output) if args.output else None)
+  File "D:\Hermes\评估中心\tools\eval_smart.py", line 580, in run_smart_eval
+    stock_
+2026-07-14 14:46:33,548 [INFO] [RENDER] 未知: N级 score=0 vol=2.00 tn=7.5 trend=高盘 向上
+2026-07-14 14:46:33,549 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\000608_14463354.txt
+2026-07-14 14:46:33,699 [INFO] [RENDER] 未知: N级 score=0 vol=1.07 tn=6.1 trend=高盘 向上
+2026-07-14 14:46:33,699 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\002174_14463369.txt
+2026-07-14 14:46:33,834 [INFO] [RENDER] 未知: N级 score=0 vol=0.56 tn=1.9 trend=中盘 整理
+2026-07-14 14:46:33,834 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\002268_14463383.txt
+2026-07-14 14:46:33,997 [INFO] [RENDER] 未知: N级 score=0 vol=0.90 tn=1.4 trend=高盘 向上
+2026-07-14 14:46:33,998 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\002438_14463399.txt
+2026-07-14 14:46:34,146 [INFO] [RENDER] 未知: N级 score=0 vol=2.62 tn=17.7 trend=高盘 向上
+2026-07-14 14:46:34,147 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\300209_14463414.txt
+2026-07-14 14:46:34,292 [INFO] [RENDER] 未知: N级 score=0 vol=0.99 tn=6.6 trend=中盘 向上
+2026-07-14 14:46:34,293 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\300657_14463429.txt
+2026-07-14 14:46:34,446 [INFO] [RENDER] 未知: N级 score=0 vol=1.74 tn=1.6 trend=高盘 向上
+2026-07-14 14:46:34,447 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600188_14463444.txt
+2026-07-14 14:46:34,588 [INFO] [RENDER] 未知: N级 score=0 vol=0.94 tn=1.3 trend=中盘 整理
+2026-07-14 14:46:34,589 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600570_14463458.txt
+2026-07-14 14:46:34,729 [INFO] [RENDER] 未知: N级 score=0 vol=2.86 tn=2.9 trend=高盘 向上
+2026-07-14 14:46:34,730 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600713_14463472.txt
+2026-07-14 14:46:34,859 [INFO] [RENDER] 未知: N级 score=0 vol=1.85 tn=5.4 trend=中盘 整理
+2026-07-14 14:46:34,860 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600839_14463486.txt
+2026-07-14 14:46:35,009 [INFO] [RENDER] 未知: N级 score=0 vol=2.33 tn=2.4 trend=高盘 向上
+2026-07-14 14:46:35,010 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600989_14463501.txt
+2026-07-14 14:46:35,161 [INFO] [RENDER] 未知: N级 score=0 vol=0.72 tn=0.3 trend=高盘 向上
+2026-07-14 14:46:35,162 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\600995_14463516.txt
+2026-07-14 14:46:35,286 [INFO] [RENDER] 未知: N级 score=0 vol=1.71 tn=1.9 trend=高盘 向上
+2026-07-14 14:46:35,287 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\601336_14463528.txt
+2026-07-14 14:46:35,422 [INFO] [RENDER] 未知: N级 score=0 vol=1.67 tn=0.2 trend=高盘 向上
+2026-07-14 14:46:35,422 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\601628_14463542.txt
+2026-07-14 14:46:35,552 [INFO] [RENDER] 未知: N级 score=0 vol=1.07 tn=0.1 trend=中盘 向上
+2026-07-14 14:46:35,553 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\601728_14463555.txt
+2026-07-14 14:46:35,693 [INFO] [RENDER] 未知: N级 score=0 vol=2.15 tn=5.1 trend=高盘 向上
+2026-07-14 14:46:35,694 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\603255_14463569.txt
+2026-07-14 14:46:35,844 [INFO] [RENDER] 未知: N级 score=0 vol=1.23 tn=2.8 trend=高盘 向上
+2026-07-14 14:46:35,845 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\603259_14463584.txt
+2026-07-14 14:46:35,983 [INFO] [RENDER] 未知: N级 score=0 vol=1.18 tn=12.6 trend=高盘 向上
+2026-07-14 14:46:35,984 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\688106_14463598.txt
+2026-07-14 14:46:36,125 [INFO] [RENDER] 未知: N级 score=0 vol=1.81 tn=2.8 trend=高盘 向上
+2026-07-14 14:46:36,125 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\688338_14463612.txt
+2026-07-14 14:46:36,275 [INFO] [RENDER] 未知: N级 score=0 vol=0.00 tn=0.0 trend=盘前
+2026-07-14 14:46:36,276 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\880009_14463627.txt
+2026-07-14 14:46:36,411 [INFO] [RENDER] 未知: N级 score=0 vol=0.00 tn=0.0 trend=盘前
+2026-07-14 14:46:36,413 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\999999_14463641.txt
+2026-07-14 14:46:36,414 [INFO] [DONE] 处理完成: 21 只股票
+2026-07-14 14:47:07,234 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 14:47:07,254 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 14:47:07,254 [INFO] [PARSE] PZYJ.blk: ['0300209', '0002174', '1688338', '1688106', '1603259', '1603255', '1601628', '1601336', '1600989', '1600713', '1600188', '0000608'] -> ['300209', '002174', '688338', '688106', '603259', '603255', '601628', '601336', '600989', '600713', '600188', '000608']
+2026-07-14 14:47:07,255 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 14:50:07,309 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 14:50:07,326 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 14:50:07,327 [INFO] [PARSE] PZYJ.blk: ['0300558', '0300453', '0300209', '0002174', '1688338', '1688106', '1603259', '1603255', '1601628', '1601336', '1600989', '1600713', '1600188', '0000608'] -> ['300558', '300453', '300209', '002174', '688338', '688106', '603259', '603255', '601628', '601336', '600989', '600713', '600188', '000608']
+2026-07-14 14:50:07,327 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 14:50:07,328 [INFO] [INFO] 批量评估 2 只股票
+2026-07-14 14:50:07,328 [INFO] [EVAL] 批量评估: 2只, 代码: 300453,300558
+2026-07-14 14:50:29,319 [INFO] [EVAL] 批量评估成功: 2只, 耗时 22.0s
+2026-07-14 14:50:29,956 [INFO] [RENDER] 三鑫医疗: S级 score=91 vol=1.06 tn=2.0 trend=高盘 向上
+2026-07-14 14:50:29,957 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\300453_14502995.txt
+2026-07-14 14:50:30,093 [INFO] [RENDER] 三鑫医疗: S级 score=91 vol=1.01 tn=5.5 trend=高盘 向上
+2026-07-14 14:50:30,094 [INFO] PUSH: D:\Hermes\评估中心\tools\tdx_connector\telegram_queue\300558_14503009.txt
+2026-07-14 14:50:30,095 [INFO] [DONE] 处理完成: 2 只股票
+2026-07-14 14:53:07,404 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 14:53:07,421 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 14:53:07,421 [INFO] [PARSE] PZYJ.blk: ['0300558', '0300453', '0300209', '0002174', '1688338', '1688106', '1603259', '1603255', '1601628', '1601336', '1600989', '1600713', '1600188', '0000608'] -> ['300558', '300453', '300209', '002174', '688338', '688106', '603259', '603255', '601628', '601336', '600989', '600713', '600188', '000608']
+2026-07-14 14:53:07,422 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 14:56:07,560 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 14:56:07,578 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 14:56:07,578 [INFO] [PARSE] PZYJ.blk: ['0300558', '0300453', '0300209', '0002174', '1688338', '1688106', '1603259', '1603255', '1601628', '1601336', '1600989', '1600713', '1600188', '0000608'] -> ['300558', '300453', '300209', '002174', '688338', '688106', '603259', '603255', '601628', '601336', '600989', '600713', '600188', '000608']
+2026-07-14 14:56:07,579 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 14:59:07,676 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 14:59:07,696 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 14:59:07,696 [INFO] [PARSE] PZYJ.blk: ['0300558', '0300453', '0300209', '0002174', '1688338', '1688106', '1603259', '1603255', '1601628', '1601336', '1600989', '1600713', '1600188', '0000608'] -> ['300558', '300453', '300209', '002174', '688338', '688106', '603259', '603255', '601628', '601336', '600989', '600713', '600188', '000608']
+2026-07-14 14:59:07,696 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 15:20:08,329 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 15:23:08,482 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 15:26:08,612 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 15:29:08,679 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 15:32:08,812 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 15:35:08,948 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 15:38:09,143 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 15:41:09,266 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 15:44:09,415 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 15:47:09,544 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 15:50:09,747 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 15:53:10,053 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 15:56:10,180 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 15:59:10,322 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 16:13:25,700 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 16:13:35,698 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 16:17:24,978 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 16:17:25,028 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 16:17:25,028 [INFO] [PARSE] PZYJ.blk: ['0300558', '0300453', '0300209', '0002174', '1688338', '1688106', '1603259', '1603255', '1601628', '1601336', '1600989', '1600713', '1600188', '0000608'] -> ['300558', '300453', '300209', '002174', '688338', '688106', '603259', '603255', '601628', '601336', '600989', '600713', '600188', '000608']
+2026-07-14 16:17:25,028 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 16:18:41,471 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 16:18:58,466 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 16:18:58,494 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 16:18:58,494 [INFO] [PARSE] PZYJ.blk: ['0300558', '0300453', '0300209', '0002174', '1688338', '1688106', '1603259', '1603255', '1601628', '1601336', '1600989', '1600713', '1600188', '0000608'] -> ['300558', '300453', '300209', '002174', '688338', '688106', '603259', '603255', '601628', '601336', '600989', '600713', '600188', '000608']
+2026-07-14 16:18:58,494 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 16:19:55,523 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 16:21:15,214 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 16:22:14,993 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 16:22:27,686 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 16:22:53,748 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 16:22:53,749 [INFO] [EVAL] 开始评估: 300209 (sz), 代码格式: sz300209
+2026-07-14 16:23:15,645 [INFO] [EVAL] 评估成功: 300209, 耗时 21.9s
+2026-07-14 16:23:39,541 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 16:23:39,563 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 16:23:39,563 [INFO] [PARSE] PZYJ.blk: ['0300558', '0300453', '0300209', '0002174', '1688338', '1688106', '1603259', '1603255', '1601628', '1601336', '1600989', '1600713', '1600188', '0000608'] -> ['300558', '300453', '300209', '002174', '688338', '688106', '603259', '603255', '601628', '601336', '600989', '600713', '600188', '000608']
+2026-07-14 16:23:39,564 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 16:23:52,207 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 16:23:52,239 [INFO] [PARSE] zxg.blk: ['1999999', '1600570', '0002268', '1880009', '0002438', '1601728', '1600995', '1600839', '0300657'] -> ['999999', '600570', '002268', '880009', '002438', '601728', '600995', '600839', '300657']
+2026-07-14 16:23:52,239 [INFO] [PARSE] PZYJ.blk: ['0300558', '0300453', '0300209', '0002174', '1688338', '1688106', '1603259', '1603255', '1601628', '1601336', '1600989', '1600713', '1600188', '0000608'] -> ['300558', '300453', '300209', '002174', '688338', '688106', '603259', '603255', '601628', '601336', '600989', '600713', '600188', '000608']
+2026-07-14 16:23:52,239 [INFO] [SKIP] 非6位代码（基金/LOF，eval_smart不支持）: ['0001207', '0002158', '0300440', '0300454', '0300487', '0301202', '0301321', '1688061', '1688202', '1688319', '1688371', '1688508']
+2026-07-14 16:23:52,240 [INFO] [EVAL] 批量评估: 2只, 代码: 000608,002174
+2026-07-14 16:24:17,717 [INFO] [EVAL] 批量评估成功: 2只, 耗时 25.5s
+2026-07-14 16:25:18,849 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 16:27:28,078 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 16:27:41,283 [INFO] Loaded code sets: SH=4767, SZ=4255
+2026-07-14 16:27:41,788 [INFO] Loaded code sets: SH=4767, SZ=4255

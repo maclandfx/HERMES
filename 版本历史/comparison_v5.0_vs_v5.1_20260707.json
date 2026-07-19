@@ -1,0 +1,15 @@
+{
+  "baseline_version": "v5.0_baseline_20260707",
+  "candidate_version": "v5.1_candidate_20260707",
+  "score_diff": 4.1,
+  "win_rate_diff": 0.167,
+  "loss_diff": 0,
+  "pass_criteria": {
+    "min_score_improvement": 2,
+    "min_win_rate": 0.45,
+    "max_loss_count": 0
+  },
+  "passed": true,
+  "recommendation": "✅ 保留",
+  "detail": "avg_score 71.6 → 75.7 (+4.1) | win_rate 50.0% → 66.7% (+16.7%) | loss_count 0 → 0"
+}

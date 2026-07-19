@@ -1,0 +1,24 @@
+{
+  "version": "v5.0",
+  "date": "2026-07-07",
+  "description": "A股实战驱动版，新增政策催化30% + 国家队面10%",
+  "files": {
+    "粗评报告模板_v2.py": {
+      "sha256": "0589fb036dac",
+      "size_kb": 165.4
+    },
+    "backtest_engine.py": {
+      "sha256": "89f68873f147",
+      "size_kb": 17.8
+    },
+    "eval_smart.py": {
+      "sha256": "e27020635f0e",
+      "size_kb": 31.1
+    },
+    "eval_weights_v5.yaml": {
+      "sha256": "7e496f4cfcf0",
+      "size_kb": 2.7
+    }
+  },
+  "change_log": "从v4.2权重10%→政策30%，技术15%→25%，资金15%→20%，基本面5%→10%"
+}

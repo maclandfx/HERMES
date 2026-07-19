@@ -1,0 +1,3 @@
+# 追踪状态控制文件
+# 内容: enabled 表示开启追踪, disabled 表示关闭追踪
+# 通过 hermes cron 定时轮询 blk_monitor.py

@@ -1,0 +1,8 @@
+# 🚨 盘中预警
+
+**股票代码**: 1688508
+**预警时间**: 13:50:43
+
+[ERROR] 批量评估失败: Traceback (most recent call last):
+  File "D:\Hermes\评估中心\tools\eval_smart.py", line 790, in <module>
+    p = run_smart_eval(inputs, title=args.title, output_dir=os.path.abspath(args.output) if args.o

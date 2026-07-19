@@ -1,0 +1,20 @@
+{
+  "n_stocks": 6,
+  "avg_score": 75.7,
+  "avg_up_prob": 56.0,
+  "win_count": 4,
+  "loss_count": 0,
+  "win_rate": 0.667,
+  "period": "20260101~20260531",
+  "weights": {
+    "policy": 0.3137,
+    "national_team": 0.1373,
+    "tech": 0.1471,
+    "capital": 0.1765,
+    "fundamental": 0.0882,
+    "sector": 0.0588,
+    "heat": 0.0392,
+    "zscore": 0.0392
+  },
+  "version_tag": "v5.1_candidate_20260707"
+}
